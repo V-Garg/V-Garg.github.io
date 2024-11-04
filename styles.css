@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Navigation Bar */
+header {
+    background-color: #1e1e1e; /* Darker nav bar background */
+    padding: 15px 0; /* Padding around the nav */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+}
+
+nav a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 12px 20px; /* Space around each link */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #333333; /* Slightly lighter background on hover */
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Center the section */
+    max-width: 800px; /* Limit width for larger screens */
+    background-color: #1e1e1e; /* Dark background for the about section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    padding: 20px; /* Inner padding */
+}
+
+.about-description {
+    max-width: 600px; /* Limits the width of the text */
+    margin-left: 20px; /* Space between image and text */
+}
+
+/* Projects Section */
+.projects-container {
+    margin: 20px auto; /* Center the section */
+    max-width: 800px; /* Limit width for larger screens */
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.project-container {
+    margin-bottom: 20px; /* Space between project entries */
+}
+
+.project-details {
+    padding: 15px; /* Inner padding for details */
+    background-color: #2a2a2a; /* Slightly lighter dark background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Experience Section */
+.experience {
+    max-width: 800px; /* Limits the width of the experience section */
+    margin: 20px auto; /* Center the section */
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+/* Connect Section */
+.connect {
+    max-width: 600px; /* Limit the width */
+    margin: 20px auto; /* Center the section */
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.connect ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.connect ul li {
+    background: #2a2a2a; /* Slightly lighter dark background for list items */
+    margin: 10px 0; /* Space between items */
+    padding: 15px; /* Space inside items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.connect ul li:hover {
+    background-color: #333333; /* Change background on hover */
+}
+
+.connect ul a {
+    text-decoration: none; /* Remove underline */
+    color: #bb86fc; /* Accent color for links */
+}
+
+.connect ul a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
